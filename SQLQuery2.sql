@@ -174,9 +174,9 @@ INSERT INTO Detail_Sutradara VALUES
     (N'DS07',N'F07',N'S04'),
     (N'DS08',N'F07',N'S05'),
     (N'DS09',N'F08',N'S06'),
-	(N'DS10',N'F08',N'S07'),
-	(N'DS11',N'F08',N'S08'),
-	(N'DS12',N'F09',N'S07'
+    (N'DS10',N'F08',N'S07'),
+    (N'DS11',N'F08',N'S08'),
+    (N'DS12',N'F09',N'S07'
 );
 
 CREATE TABLE Detail_Award (
@@ -195,7 +195,7 @@ INSERT INTO Detail_Award VALUES
     (N'DA07',N'F05',N'KA04'),
     (N'DA08',N'F06',N'KA05'),
     (N'DA09',N'F07',N'KA04'),
-	(N'DA10',N'F09',N'KA02'
+    (N'DA10',N'F09',N'KA02'
 );
 
 CREATE TABLE Detail_Film (
@@ -214,29 +214,29 @@ INSERT INTO Detail_Film VALUES
     (N'DF07',N'User03',N'F02'),
     (N'DF08',N'User03',N'F01'),
     (N'DF09',N'User03',N'F04'),
-	(N'DF10',N'User04',N'F05'),
-	(N'DF11',N'User04',N'F07'),
-	(N'DF12',N'User05',N'F04'),
-	(N'DF13',N'User05',N'F02'),
-	(N'DF14',N'User06',N'F08'),
-	(N'DF15',N'User06',N'F06'),
-	(N'DF16',N'User07',N'F08'),
-	(N'DF17',N'User07',N'F09'),
-	(N'DF18',N'User08',N'F06'),
-	(N'DF19',N'User08',N'F05'),
-	(N'DF20',N'User09',N'F07'),
-	(N'DF21',N'User09',N'F01'),
-	(N'DF22',N'User10',N'F07'),
-	(N'DF23',N'User10',N'F08'),
-	(N'DF24',N'User11',N'F01'),
-	(N'DF25',N'User11',N'F05'),
-	(N'DF26',N'User12',N'F02'),
-	(N'DF27',N'User12',N'F05'),
-	(N'DF28',N'User13',N'F09'),
-	(N'DF29',N'User14',N'F04'),
-	(N'DF30',N'User14',N'F08'),
-	(N'DF31',N'User15',N'F02'),
-	(N'DF32',N'User15',N'F04'
+    (N'DF10',N'User04',N'F05'),
+    (N'DF11',N'User04',N'F07'),
+    (N'DF12',N'User05',N'F04'),
+    (N'DF13',N'User05',N'F02'),
+    (N'DF14',N'User06',N'F08'),
+    (N'DF15',N'User06',N'F06'),
+    (N'DF16',N'User07',N'F08'),
+    (N'DF17',N'User07',N'F09'),
+    (N'DF18',N'User08',N'F06'),
+    (N'DF19',N'User08',N'F05'),
+    (N'DF20',N'User09',N'F07'),
+    (N'DF21',N'User09',N'F01'),
+    (N'DF22',N'User10',N'F07'),
+    (N'DF23',N'User10',N'F08'),
+    (N'DF24',N'User11',N'F01'),
+    (N'DF25',N'User11',N'F05'),
+    (N'DF26',N'User12',N'F02'),
+    (N'DF27',N'User12',N'F05'),
+    (N'DF28',N'User13',N'F09'),
+    (N'DF29',N'User14',N'F04'),
+    (N'DF30',N'User14',N'F08'),
+    (N'DF31',N'User15',N'F02'),
+    (N'DF32',N'User15',N'F04'
 );
 
 
