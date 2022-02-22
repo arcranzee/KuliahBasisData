@@ -371,14 +371,14 @@ WHERE Production_Company.[ID_Production_Company] = 'PH05'
 ;
 
 #12
-a. Menampilkan data pengguna yang tidak membayar biaya langganan
+#a. Menampilkan data pengguna yang tidak membayar biaya langganan
 
 SELECT *
 FROM Pengguna
 WHERE Paket = N'Gratis'
 ;
 
-b. Menampilkan data pemeran yang bermain di film pemenang penghargaan Oscars
+#b. Menampilkan data pemeran yang bermain di film pemenang penghargaan Oscars
 
 SELECT Pemeran.*
 FROM Pemeran
@@ -389,14 +389,14 @@ ON Peran.[ID_Film] = Film.[ID_Film]
 WHERE Film.[ID_Award] = N'A01'
 ;
 
-c. Menampilkan judul film yang belum diberikan rating
+#c. Menampilkan judul film yang belum diberikan rating
 
 SELECT [Judul_Film] AS [Film_Yang_Belum_Dirating]
 FROM Film
 WHERE Rating IS NULL
 ;
 
-d. Menampilkan ID dari sutradara yang menghasilkan lebih dari satu film
+#d. Menampilkan ID dari sutradara yang menghasilkan lebih dari satu film
 
 SELECT ID_Sutradara, COUNT(ID_Sutradara) AS [Jumlah_Film]
 FROM Detail_Sutradara
@@ -404,7 +404,7 @@ GROUP BY ID_Sutradara
 HAVING  COUNT(ID_Sutradara) > 1
 ;
 
-e. Menampilkan nama pengguna beserta paket dan tanggal bergabungnya, dari pengguna yang bergabung mulai tahun 2018 dan diurutkan berdasarkan yang paling awal bergabung 
+#e. Menampilkan nama pengguna beserta paket dan tanggal bergabungnya, dari pengguna yang bergabung mulai tahun 2018 dan diurutkan berdasarkan yang paling awal bergabung 
 
 SELECT Nama_Pengguna, ID_Pengguna, Tanggal_Bergabung, Paket
 FROM Pengguna
@@ -412,7 +412,7 @@ WHERE Tanggal_Bergabung > '2018-01-01'
 ORDER BY Tanggal_Bergabung
 ;
 
-f. Menampilkan judul film yang diproduksi oleh Warner Bros
+#f. Menampilkan judul film yang diproduksi oleh Warner Bros
 
 SELECT Film.[Judul_Film], Film.[ID_Film], Production_Company.[Nama_Production_Company]
 FROM Film
@@ -421,14 +421,14 @@ ON Film.[ID_Production_Company] = Production_Company.[ID_Production_Company]
 WHERE [Nama_PRoduction_Company]= 'Warner Bros'
 ;
 
-g. Menampilkan judul beserta tahun rilis film yang keluar sejak tahun 2010
+#g. Menampilkan judul beserta tahun rilis film yang keluar sejak tahun 2010
 
 SELECT Judul_Film AS Nama_Film, Tahun_Rilis AS Rilis_2000
 FROM Film
 WHERE Tahun_Rilis >= 2010
 ;
 
-h. Menampilkan semua data yang ada
+#h. Menampilkan semua data yang ada
 
 SELECT*FROM Pengguna;
 SELECT*FROM Production_Company;
